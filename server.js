@@ -12,5 +12,5 @@ const PORT = 3004;
 app.use(express.static(__dirname));
 
 app.listen(PORT, () => {
-  console.log(`✅ Server is running on http://localhost:${PORT}`);
+  console.log(`✅ Server is running on http:///0.0.0.0:${PORT}`);
 });
